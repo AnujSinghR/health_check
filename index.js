@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 // Root route returning success message
 app.get('/', (req, res) => {
-  res.send('Node.js app successfully running');
+  res.send('Node.js app successfully running ');
 });
 
 // Dummy data route
